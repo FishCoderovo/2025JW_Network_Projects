@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+*.pyc
+__pycache__/
+
+# Specific to Web FTP Project
+web/uploads/
+web/requirements.txt # web项目的requirements.txt在web目录下
+
+# Specific to Web Scraper Project
+crawler/downloads/
+crawler/requirements.txt # crawler项目的requirements.txt在crawl目录下
+
+# C Language FTP Project binaries
+ftp/ftp_client
+ftp/ftp_server
+*.o
+
+# Other common ignore patterns
+.DS_Store
+.env
+.idea/
+.vscode/
+npm-debug.log
