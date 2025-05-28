@@ -21,7 +21,8 @@ namespace fs = std::filesystem; // For C++17 filesystem operations
 // Simple user database
 std::map<std::string, std::string> users = {
     {"user1", "pass1"},
-    {"admin", "adminpass"}
+    {"admin", "adminpass"},
+    {"root","12345"}
 };
 
 // Structure to hold client-specific state
