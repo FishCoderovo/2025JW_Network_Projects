@@ -1,7 +1,9 @@
+# 用户和密码
 user1
 pass1
 
-admin / adminpass
+admin
+adminpass
 
 root
 12345

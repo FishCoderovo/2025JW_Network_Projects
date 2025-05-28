@@ -1,19 +1,28 @@
-# Python virtual environments
+# 虚拟环境目录
 venv/
+
+# 下载和上传的临时文件目录
+downloads/
+uploads/
+
+# C++ 编译产物（假设 Makefile 生成的可执行文件和目标文件）
+*.o
+client
+server
+
+# Python 缓存和编译文件
 *.pyc
 __pycache__/
 
-# Specific to Web FTP Project
-web/uploads/
-web/requirements.txt # web项目的requirements.txt在web目录下
+# 图片文件（如果是临时测试用，可根据实际情况调整）
+*.jpg
 
-# Specific to Web Scraper Project
-crawler/downloads/
-crawler/requirements.txt # crawler项目的requirements.txt在crawl目录下
+# 日志文件（如果有，可添加）
+*.log
 
-# Other common ignore patterns
-.DS_Store
-.env
-.idea/
+# 编辑器配置（如 VSCode 的 .vscode 目录，若存在）
 .vscode/
-npm-debug.log
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
